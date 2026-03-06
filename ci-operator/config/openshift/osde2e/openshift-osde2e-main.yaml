@@ -39,6 +39,7 @@ tests:
     export SHARED_DIR="tmp/"
     export SKIP_MUST_GATHER="true"
     export SKIP_DESTROY_CLUSTER="true"
+    export LOG_BUCKET="osde2e-logs"
     export SECRET_LOCATIONS="/usr/local/osde2e-common,/usr/local/osde2e-credentials,/usr/local/osde2e-hypershift-credentials"
 
     go mod tidy
